@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alloy Network | LIVE Academy</title>
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b10;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 24px 8%;
+      border-bottom: 1px solid #292932;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .brand {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      margin-left: 22px;
+    }
+    main {
+      padding: 110px 8%;
+      max-width: 1000px;
+    }
+    h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.1;
+      margin-bottom: 24px;
+    }
+    .gradient {
+      background: linear-gradient(90deg,#a42aff,#f020b6,#ff922e);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    p {
+      color: #bfc0ca;
+      font-size: 19px;
+      line-height: 1.7;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 15px 28px;
+      background: linear-gradient(90deg,#a42aff,#f020b6,#ff922e);
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media(max-width:700px) {
+      header { flex-direction: column; gap: 20px; }
+      nav a { margin: 0 8px; font-size: 13px; }
+      main { padding: 70px 7%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">ALLOY NETWORK</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="#academy">Academy</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+  <main id="academy">
+    <h1>One Network.<br><span class="gradient">Stronger Creators.</span></h1>
+    <p>
+      Welcome to Alloy Network — a creator-focused
+      TikTok LIVE agency and learning community.
+    </p>
+    <p>
+      Build your mindset, develop your LIVE skills,
+      and grow with practical guidance through
+      Alloy LIVE Academy.
+    </p>
+    <a class="button" href="#academy">Explore Academy</a>
+  </main>
+</body>
+</html>
